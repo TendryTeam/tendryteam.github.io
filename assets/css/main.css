@@ -929,7 +929,7 @@ input[type="button"]:focus {
 .app-design__visual {
   position: absolute;
   top: -10px;
-  left: 45%;
+  left: 50%;
   width: 700px;
   height: 659px;
   margin: 0;
@@ -943,7 +943,9 @@ input[type="button"]:focus {
     font-size: 48px;
   }
   .app-design__visual {
-    width: 922px;
+    top: 80px;
+    left: 509px;
+    width: 450px;
     height: 586px;
   }
 }
@@ -968,17 +970,17 @@ input[type="button"]:focus {
   .app-design__visual {
     top: auto;
     left: 50%;
-    bottom: -175px;
+    bottom: -89px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 679px;
+    width: 230px;
     height: 439px;
   }
 }
 @media (max-width: 480px) {
   .app-design__visual {
-    bottom: -100px;
-    width: 576px;
+    bottom: -109px;
+    width: 109px;
     height: 366px;
   }
 }
@@ -1018,8 +1020,8 @@ input[type="button"]:focus {
     font-size: 48px;
   }
   .web-design__visual {
-    right: 45%;
-    width: 741px;
+    right: 60%;
+    width: 450px;
     height: 520px;
   }
 }
@@ -1035,7 +1037,7 @@ input[type="button"]:focus {
     justify-content: center;
   }
   .web-design__content {
-    text-align: center;
+    text-align: -webkit-center;
   }
   .web-design__content h2 {
     font-size: 32px;
@@ -1050,7 +1052,7 @@ input[type="button"]:focus {
     bottom: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 523px;
+    width: 280px;
     height: 376px;
   }
 }
@@ -1059,7 +1061,8 @@ input[type="button"]:focus {
     height: 425px;
   }
   .web-design__visual {
-    width: 392px;
+    bottom: -102px;
+    width: 124px;
     height: 275px;
   }
 }
