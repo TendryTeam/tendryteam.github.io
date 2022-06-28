@@ -928,8 +928,8 @@ input[type="button"]:focus {
 }
 .app-design__visual {
   position: absolute;
-  top: -10px;
-  left: 50%;
+  top: 60px;
+  left: 53%;
   width: 700px;
   height: 659px;
   margin: 0;
@@ -953,7 +953,7 @@ input[type="button"]:focus {
   .app-design {
     height: 400px;
     padding-top: 160px;
-    padding-bottom: 60px;
+    padding-bottom: 170px;
   }
   .app-design__content {
     text-align: center;
@@ -979,7 +979,7 @@ input[type="button"]:focus {
 }
 @media (max-width: 480px) {
   .app-design__visual {
-    bottom: -109px;
+    bottom: -280px;
     width: 109px;
     height: 366px;
   }
